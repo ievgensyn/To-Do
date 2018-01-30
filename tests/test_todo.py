@@ -27,7 +27,7 @@ class TestTodo(TransactionCase):
         return  result
 
     def test_record_rule(self):
-        "Test per user recors rules"
+        "Test per user records rules"
         Todo = self.env['todo.task']
         task = Todo.sudo().create({'name': 'Admin Task'})
         with self.assertRaises(AccessError):

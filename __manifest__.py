@@ -1,7 +1,8 @@
 {
     'name': 'To-Do Application',
     'description': 'Manage your personal To-Do tasks.',
-    'summary': '--',
+    'summary': 'A simple module, that lets to create'
+               ' a task, mark it as done, hide all tasks with status "done".',
     'author': 'Ievgen Synchyshyn',
     'version': '1.0',
     'category': 'Uncategorized',
