@@ -19,5 +19,5 @@ class TodoTask(models.Model):
     @api.model
     def do_clear_done(self):
         dones = self.search([('is_done', '=', True)])
-        dones.write({'active':False})
+        dones.write({'active': False})
         return True
